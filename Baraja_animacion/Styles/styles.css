@@ -1,0 +1,56 @@
+body{
+	background-color: green;
+}
+
+div{
+	position: relative;
+	border: 1px solid black;
+	border-radius:10px ;
+	display: inline-block;
+	font-size: 28px;
+	width: 150px;
+	height: 250px;
+	top: 450px;
+	left: -650px;
+	background-color:rgba(255, 255, 255, 1);
+	animation: animacion 1;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+}
+
+
+@keyframes animacion{
+   0% {transform: rotate(0deg); left:800px; top:800px;}
+   100% {transform: rotate(450deg); left: -650px; top: 20px;}
+
+}
+
+
+.carta4{
+	color: red;
+	animation-delay: 1s;
+}
+
+.carta2{
+	animation-delay: 4s;
+}
+
+.carta3{
+	color: red;
+	animation-delay: 7s;
+}
+
+.carta1{
+	animation-delay: 9s;
+}
+
+
+.signo1, .signo2, .signo3, .signo4{
+	position: absolute;
+	top: 25px;
+} 
+
+
+p{
+	margin-top: 3px;
+}
